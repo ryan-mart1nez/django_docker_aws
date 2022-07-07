@@ -1,3 +1,4 @@
+---
 version: "3.8"
 services:
   web:
@@ -20,5 +21,3 @@ services:
       - web
 volumes:
   static_volume:
-
-
