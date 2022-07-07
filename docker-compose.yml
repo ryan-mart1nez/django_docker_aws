@@ -8,7 +8,7 @@ services:
       - ./app/:/usr/src/app/
       - static_volume:/usr/src/app/static
     expose:
-      - 8000
+      - 9000
   nginx:
     build: ./nginx
     image: 519088387044.dkr.ecr.us-west-1.amazonaws.com/django_docker_aws:django_docker_aws_nginx
